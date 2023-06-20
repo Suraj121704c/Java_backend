@@ -39,7 +39,4 @@ class Nest {
 //    Eggs firstEgg; --> you can do it like this
 }
 
-class Eggs {
-    String color;
-    int size;
-}
+
