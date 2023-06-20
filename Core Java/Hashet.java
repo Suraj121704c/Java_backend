@@ -13,6 +13,10 @@ public class Hashet {
         System.out.println(hashSet);
 
         System.out.println("List contains C or not ? " + hashSet.contains("C"));
-        
+
+//        enhanced for loop
+        for(String item : hashSet){
+            System.out.println(item);
+        }
     }
 }
