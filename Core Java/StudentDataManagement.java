@@ -44,6 +44,7 @@ public class StudentDataManagement {
 
     public static void main(String[] args) {
 
+
         StudentDataManagement john = new StudentDataManagement("john" , 25 , "23 East , blue");
 
         System.out.println(john.getName());
