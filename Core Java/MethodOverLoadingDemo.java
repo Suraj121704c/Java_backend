@@ -17,5 +17,4 @@ public class MethodOverLoadingDemo {
         System.out.println(methodOverLoadingDemo.Multiply(2,1,2));;
         System.out.println( methodOverLoadingDemo.Multiply(4,3));;
     }
-    
 }
