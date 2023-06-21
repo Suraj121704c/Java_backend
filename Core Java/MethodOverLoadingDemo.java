@@ -13,10 +13,9 @@ public class MethodOverLoadingDemo {
 
     public static void main(String[] args) {
         MethodOverLoadingDemo methodOverLoadingDemo = new MethodOverLoadingDemo();
-        methodOverLoadingDemo.Multiply(5,4);
-        methodOverLoadingDemo.Multiply(2,1,2);
-        methodOverLoadingDemo.Multiply(4,3);
+        System.out.println(methodOverLoadingDemo.Multiply(5,4));;
+        System.out.println(methodOverLoadingDemo.Multiply(2,1,2));;
+        System.out.println( methodOverLoadingDemo.Multiply(4,3));;
     }
-
-
+    
 }
