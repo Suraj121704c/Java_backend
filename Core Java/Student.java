@@ -41,5 +41,16 @@ public class Student {
         return ("Student name is : " + this.getName() + " , age is : " + this.getAge() + " and address is : " + this.getAddress());
     }
 
+    public static void main(String[] args) {
+        Student student = new Student("Suraj" , "Mirzapur" , 19 );
+
+        System.out.println(student.getName());
+        System.out.println(student.getAddress());
+        System.out.println(student.getAge());
+
+        System.out.println(student.toString());
+
+    }
+
 }
 
