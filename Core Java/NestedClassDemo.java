@@ -35,6 +35,7 @@ public class NestedClassDemo {
 
         NestedClassDemo outerObject = new NestedClassDemo();
         outerObject.outerMethod();
+        outerObject.createInnerObject();
 
         InnearClass innerObject = outerObject.new InnearClass();
         innerObject.innerMethod();
