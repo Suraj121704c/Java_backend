@@ -19,7 +19,7 @@ public class NestedClassDemo {
             System.out.println("Inner Method");
         }
     }
-    
+
 //    Creating innear Object
     public void createInnerObject() {
         InnearClass innerObject = new InnearClass();
@@ -27,11 +27,15 @@ public class NestedClassDemo {
     }
 
     public static void main(String[] args) {
+
+
         staticNestedClass nestedObject = new staticNestedClass();
         nestedObject.nestedMethod();
 
 
         NestedClassDemo outerObject = new NestedClassDemo();
+        outerObject.outerMethod();
+
         InnearClass innerObject = outerObject.new InnearClass();
         innerObject.innerMethod();
     }
